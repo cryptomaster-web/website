@@ -1,0 +1,134 @@
+* {
+	box-sizing: border-box;
+ }
+
+.mainh1 {
+	font-size: 45px;
+}
+
+.bitcoin_image {
+	background-attachment: fixed;
+	background-image: url('../img/btcbg.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 900px;
+	width: 100%;
+}
+
+.header {
+	color: #fff;
+}
+
+.card_why {
+	text-align: center;
+	display: flex;
+	display: -ms-flex;
+	text-align: center;
+	flex-direction: column;
+	width: 250px;
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+.img_base {
+	text-align: center;
+	padding: 25px;
+}
+@media screen and (min-width: 780px){
+	.cardblock {
+		display: flex;
+		display: -ms-flex;
+		justify-content: space-between;
+		flex-direction: row;
+		padding: 25px;
+	}
+}
+.display-5 {
+	font-size: 30px;
+}
+
+.flexible-img {
+	max-width: 100%;
+}
+
+@media screen and (max-width: 450px){
+	.display-4 {
+		font-size: 30px;
+	}
+}
+
+input[type=text]{
+	width: 250px;
+	margin: 0 auto;
+	margin: 35px;
+}
+
+.reg_form {
+	text-align: center;
+}
+
+.regbutton {
+	color: #000;
+	margin: 35px;
+}
+
+.regbutton:hover {
+	color: #000;
+	text-decoration: none;
+}
+
+.comment {
+	display: flex;
+	display: -ms-flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 25px;
+	width: 350px;
+	padding: 15px;
+	border-style: solid;
+	border-color: grey;
+	border-width: 1px;
+	border-radius: 15px;
+	margin: 0 auto;
+	margin-bottom: 15px;
+}
+
+.name {
+	margin: 25px;
+}
+
+.avatar {
+	background-size: cover;
+	width: 128px;
+	height: 128px;
+	margin: 0 auto;
+	border-radius: 65px;
+	border-style: solid;
+	border-color: grey;
+	border-width: 1px;
+}
+
+#ava1 {
+	background-image: url('../img/man1.jpg');
+}
+
+#ava2 {
+	background-image: url('../img/man2.png');
+}
+
+#ava3 {
+	background-image: url('../img/man3.png');
+}
+.peopleinfoblock {
+	text-align: center;
+}
+
+.reviewsblock{text-align: center;}
+@media screen and (min-width: 990px){
+	.reviewsblock {
+		display: flex;
+		display: -ms-flex;
+
+		justify-content: space-around;
+	}
+}
